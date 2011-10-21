@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/bg">
+    <ImageView android:layout_marginTop="20px" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal" android:src="@drawable/logobig"></ImageView>
+    <LinearLayout android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_marginTop="60px" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <Button android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/btnRajaMantri" android:textSize="22px" android:background="@drawable/btnbg" android:layout_width="wrap_content" android:text="PLAY" android:textStyle="bold"></Button>
+        <Button android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/btnHelp" android:textSize="22px" android:background="@drawable/btnbg" android:layout_marginTop="20px" android:layout_width="wrap_content" android:text="HELP" android:textStyle="bold"></Button>
+        <ImageView android:layout_marginTop="40px" android:id="@+id/imageView2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center" android:src="@drawable/wllogo"></ImageView>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

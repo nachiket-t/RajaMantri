@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background = "@drawable/bg"
+        >
+    
+        
+    <ImageView
+    android:layout_marginTop = "30px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textSize="23sp"
+    android:src = "@drawable/logosmall"/>
+    
+    <TextView  
+    android:layout_marginTop = "10px"
+    android:id ="@+id/lblPlayer1"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="PLAYER 1:"
+    android:layout_gravity="center"
+    android:textColor = "#FFFFFF"
+    android:textSize = "16px"    /> 
+    
+    <EditText
+        android:id="@+id/editTxtPlayer1"
+        android:singleLine="true"
+        android:maxLength="20"
+        android:minWidth="100px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_gravity="center_horizontal"
+        android:background = "@drawable/inputbg"
+        android:textColor = "#FFFFFF"
+        android:gravity = "center"
+    />
+    
+    
+    <TextView  
+    android:id ="@+id/lblPlayer2"
+    android:textColor = "#FFFFFF"
+    android:textSize = "16px"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:text="PLAYER 2:"
+        android:layout_gravity="center"
+    />
+    
+    <EditText
+        android:id="@+id/editTxtPlayer2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:maxLength="20"
+        android:minWidth="100px"
+        android:singleLine="true"
+        android:textColor = "#FFFFFF"
+        android:background = "@drawable/inputbg"
+        android:layout_gravity="center_horizontal"
+        android:gravity = "center"
+    />
+    
+   
+    <TextView  
+    	android:id ="@+id/lblPlayer3"
+    	android:textColor = "#FFFFFF"
+    	android:textSize = "16px"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:text="PLAYER 3:"
+        android:layout_gravity="center"
+        />
+        
+    <EditText
+        android:id="@+id/editTxtPlayer3"
+        android:singleLine="true"
+        android:maxLength="20"
+        android:minWidth="100px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor = "#FFFFFF"
+        android:background = "@drawable/inputbg"
+        android:layout_gravity="center_horizontal"
+        android:gravity = "center"
+    />
+    
+   
+    <TextView  
+    	android:id ="@+id/lblPlayer4"
+    	android:textColor = "#FFFFFF"
+    	android:textSize = "16px"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:text="PLAYER 4:"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/editTxtPlayer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="20"
+        android:minWidth="100px"
+        android:singleLine="true"
+        android:textColor = "#FFFFFF"
+        android:background = "@drawable/inputbg"
+        android:layout_gravity="center_horizontal"
+        android:gravity = "center"
+        
+    />
+    
+   
+        
+       
+     <Button 
+     	android:layout_marginTop = "20px"
+        android:id="@+id/btnsignin" 
+        android:background="@drawable/btnbg"
+    	 android:layout_gravity="center_horizontal"
+    	android:text = "START"
+   		android:textSize = "22px"
+   		android:textStyle = "bold"
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     />        
+    
+
+	<Button 
+		android:layout_marginTop = "10px"
+        android:id="@+id/btnMainMenu" 
+        android:background="@drawable/btnbg"
+    	android:layout_gravity="center_horizontal"
+    	android:text = "MAIN MENU"
+   		android:textSize = "22px"
+   		android:textStyle = "bold"
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     />    
+   
+    
+    </LinearLayout>

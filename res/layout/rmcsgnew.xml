@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:background = "@drawable/bg"
+        >
+    
+        
+    <ImageView
+    android:layout_marginTop = "10px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textSize="23sp"
+    android:src = "@drawable/logosmall"/>
+    
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop = "10px"
+        android:gravity = "center"
+        >
+   
+    
+     <Button
+            android:id="@+id/btnPod1" 
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "right"
+            android:background = "@drawable/podopen"
+           
+            />   
+       <Button
+       		
+            android:id="@+id/btnPod2" 
+            android:background= "@drawable/podopen"
+            android:layout_gravity = "left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />   
+      </LinearLayout>
+          
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        
+        android:gravity = "center"
+        
+        >
+
+
+
+	<TextView
+	android:id = "@+id/txtTurn"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:background = "@drawable/msgbg"
+	android:layout_gravity="center_horizontal"
+   	android:gravity = "center"
+    
+    android:textColor = "#FFFFFF"
+	></TextView>
+	
+</LinearLayout>
+
+
+
+     
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        
+        android:gravity = "center"
+        >
+   
+    
+     <Button
+            android:id="@+id/btnPod3" 
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "right"
+            android:background = "@drawable/podopen"
+           
+            />   
+       <Button
+       		
+            android:id="@+id/btnPod4" 
+            android:background = "@drawable/podopen"
+            android:layout_gravity = "left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        />   
+      </LinearLayout>
+      
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop = "2px"
+        android:gravity = "center"
+        >
+   <Button 
+            android:id="@+id/btnPlay" 
+            android:text="SHUFFLE" 
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" 
+            android:textSize = "22px"
+   			android:textStyle = "bold"
+            android:layout_width="wrap_content"
+            android:background = "@drawable/btnbg"
+            /><!--   
+        
+    
+  
+     <Button 
+            android:id="@+id/btnGuess" 
+            android:text="GUESS" 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:background = "@drawable/btnbg"/>   
+    
+   --></LinearLayout>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop = "2px"
+        android:gravity = "center"
+        >
+        
+        
+       
+     <TextView  
+    	
+    	android:textColor = "#EB6E52"
+    	android:textSize = "16px"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:text="SCORE"
+        android:textStyle = "bold"
+        android:layout_gravity="center"
+       android:id = "@+id/lblScore"
+        
+        
+        /> 
+      
+        
+    </LinearLayout>
+    
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop = "2px"
+        android:gravity = "center"
+        >
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop = "2px"
+        android:gravity = "left"
+        >
+        
+        <TextView android:layout_gravity="left"
+        android:textSize="16px" 
+        android:textColor="#FFFFFF" 
+        android:layout_height="wrap_content" 
+        android:text="PLAYER 1:" 
+        android:layout_width="wrap_content"
+        android:minWidth = "120px"
+        android:layout_marginRight = "2px"
+        
+        android:id="@+id/txtPlayer1">
+        </TextView>
+        </LinearLayout>
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        
+        android:gravity = "right"
+        >
+        <TextView android:layout_gravity="right" 
+        android:textSize="16px" 
+        android:textColor="#FFFFFF" 
+        android:layout_height="wrap_content"
+        android:text="PLAYER 2:" 
+        android:layout_width="wrap_content"
+        android:minWidth = "120px"
+        
+        android:id="@+id/txtPlayer2">
+        </TextView> 
+      
+        </LinearLayout>
+    
+
+
+
+
+
+
+</LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop = "5px"
+        android:gravity = "center"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        
+        android:gravity = "left"
+        >
+       <TextView  
+    	android:id ="@+id/txtPlayer3"
+    	android:textColor = "#FFFFFF"
+    	android:textSize = "16px"
+        android:layout_width="wrap_content"
+        android:minWidth = "120px"
+    	android:layout_height="wrap_content"
+        android:text="PLAYER 3:"
+        android:layout_gravity="left"
+        
+        android:layout_marginRight = "2px"
+        /> 
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        
+        android:gravity = "right"
+        >
+        <TextView android:layout_gravity="right"
+        android:textSize="16px" 
+        android:textColor="#FFFFFF" 
+        android:layout_height="wrap_content" 
+        android:text="PLAYER 4:" 
+        android:layout_width="wrap_content"
+        android:minWidth = "120px"
+        android:id="@+id/txtPlayer4">
+        </TextView> 
+      </LinearLayout>
+</LinearLayout>
+        
+    </LinearLayout>
+   
+    </ScrollView>
